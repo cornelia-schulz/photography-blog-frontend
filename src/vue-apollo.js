@@ -5,7 +5,7 @@ import { InMemoryCache } from "apollo-cache-inmemory";
 // HTTP connection to the API
 const httpLink = createHttpLink({
   // You should use an absolute URL here
-  uri: 'https://connies-photography-blog.herokuapp.com/graphql' || "http://localhost:1337/graphql"
+  uri: 'https://connies-photography-blog.herokuapp.com' || "http://localhost:1337/graphql"
 });
 
 // Cache implementation
