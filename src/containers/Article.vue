@@ -35,7 +35,7 @@ export default {
     return {
       article: {},
       moment: moment,
-      api_url: 'https://connies-photography-blog.herokuapp.com/',
+      api_url: 'https://connies-photography-blog.herokuapp.com',
       routeParam: this.$route.params.id
     };
   },

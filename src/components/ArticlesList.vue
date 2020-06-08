@@ -59,7 +59,7 @@
 export default {
   data: function() {
     return {
-      api_url: 'https://connies-photography-blog.herokuapp.com/'
+      api_url: 'https://connies-photography-blog.herokuapp.com'
     };
   },
   props: {
